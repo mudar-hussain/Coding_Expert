@@ -1,0 +1,36 @@
+{
+  "name": "Coding_Expert",
+  "version": "1.0.0",
+  "description": "Make it work, make it right, make it fast. Practice coding in a lucid and efficient manner",
+  
+  "permissions": [
+    "activeTab",
+    "notifications",
+    "alarms",
+    "bookmarks",
+    "storage",
+    "background",
+    "tabs"
+
+  ],
+  "browser_action": {
+    "default_icon": {"512":"images/icon16.png"},
+    "default_popup": "popup.html",
+    "default_title": "Coding_Expert"
+
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+
+  },
+  "icons": {
+    "128": "images/icon128.png",
+    "48": "images/icon48.png",
+    "16": "images/icon16.png"
+    
+  },
+  
+  "manifest_version": 2
+
+}
